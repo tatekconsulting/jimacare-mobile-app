@@ -1,0 +1,40 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~font-awesome/scss/font-awesome';
+@import "~datatables.net-bs4/css/dataTables.bootstrap4.css";
+
+// Import Custom SB Admin 2 Mixins and Components
+@import "mixins.scss";
+@import "global.scss";
+@import "utilities.scss";
+
+// Custom Components
+@import "dropdowns.scss";
+@import "navs.scss";
+@import "buttons.scss";
+@import "cards.scss";
+@import "charts.scss";
+@import "login.scss";
+@import "error.scss";
+@import "footer.scss";
+
+.upload-wrap{
+	border: 1px solid #bbb;
+	cursor: pointer
+}
+.image-ph{
+	height: 264px;
+	max-width: 100%;
+}
+
+.alert-notice{
+	position: fixed;
+	right: 30px;
+	top: 30px;
+}

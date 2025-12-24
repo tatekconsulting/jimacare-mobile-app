@@ -1,0 +1,99 @@
+# SERVICE TYPE (Carer)
+Day/Hourly Care
+Respite Care
+Live-in Care
+Overnight Care
+
+# SERVICE TYPE (ChildMinder)
+
+
+# SERVICE TYPE (HouseKeeper)
+
+
+# SKILLS (Carer)
+Medication Prompting
+Communication
+Empathy
+Fire-Aid Training
+
+# SKILLS (ChildMinder)
+First Aid
+Cooking
+Homework Assistance
+Pet
+Crafting
+Drawing
+Reading
+Music
+Language Games
+Others
+
+# SKILLS (HouseKeeper)
+Carpet Cleaning
+Sweeping
+Deep Cleaning
+Mopping
+Window Treatment Cleaning
+Vacuuming
+Dusting
+Bathroom and Bedroom Cleaning
+Infection Control
+Polishing
+
+# SKILLS (Carer)
+# SKILLS (ChildMinder)
+# SKILLS (HouseKeeper)
+
+
+INSERT INTO experiences(id, role_id, title, slug)
+VALUES
+### For Care
+(1, 3, 'Early Stage Dementia', 'early-stage-dementia'),
+(2, 3, 'Late Stage Dementia', 'late-stage-dementia'),
+(3, 3, 'COPD', 'copd-all-capital-letters'),
+(4, 3, 'Accident Rehabilitation', 'accident-rehabilitation'),
+(5, 3, 'Stroke', 'stroke'),
+(6, 3, 'Physical Disabilities Children', 'physical-disabilities-children'),
+(7, 3, "Parkinson's Disease", 'parkinsons-disease'),
+(8, 3, 'Incontinence', 'incontinence'),
+(9, 3, 'Physical Disabilities', 'physical-disabilities'),
+(10, 3, 'ASD', 'asd'),
+(11, 3, 'Mental Health', 'mental-health'),
+(12, 3, 'Brain Injuries', 'brain-injuries'),
+(13, 3, 'Spinal Injuries', 'spinal-injuries'),
+(14, 3, 'Cerebral Palsy', 'cerebral-palsy'),
+(15, 3, 'PEG Feeding', 'peg-feeding'),
+(16, 3, 'Catheter Care', 'catheter-care'),
+(17, 3, 'Occupational Therapy', 'occupational-therapy'),
+(18, 3, 'Physiotherapy', 'physiotherapy'),
+(19, 3, 'Palliative Care', 'palliative-care'),
+
+### For ChildMinder
+(20, 4, 'Baby', 'baby'),
+(21, 4, 'Toddler', 'toddler'),
+(22, 4, 'Preschooler', 'preschooler'),
+(23, 4, 'Gradeschooler', 'gradeschooler'),
+(24, 4, 'Teenagers', 'teenagers'),
+(25, 4, 'Infant', 'infant'),
+
+### For HouseKeeper
+(26, 5, 'House Cleaning', 'house-cleaning'),
+(27, 5, 'Hotel Cleaning', 'hotel-cleaning'),
+(28, 5, 'End of Tenancy Cleaning', 'end-of-tenancy-leaning'),
+(29, 5, 'Office Cleaning', 'office-cleaning'),
+(30, 5, 'Hospital Cleaning', 'hospital-cleaning'),
+(31, 5, 'Retail Cleaning', 'retail-cleaning'),
+(32, 5, 'Other Cleaning', 'other-cleaning');
+
+INSERT INTO interests(id, role_id, title, slug)
+VALUES
+### For ChildMinder
+(1, 4, 'Dressing and Undressing', 'dressing-undressing'),
+(2, 4, 'Bathroom Assistance', 'bathroom-assistance');
+
+INSERT INTO education(id, role_id, title, slug)
+VALUES
+### For ChildMinder
+(1, 4, 'O level/GCSEs', 'o-level'),
+(2, 4, 'A level', 'a-level'),
+(3, 4, 'Degree', 'degree');
